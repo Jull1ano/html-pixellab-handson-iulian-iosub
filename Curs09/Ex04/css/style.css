@@ -24,6 +24,7 @@
 
 .box-yellow {
   background-color: yellow;
+  transform: scale(1.2) rotate(-15deg);
 }
 
 .box-purple {

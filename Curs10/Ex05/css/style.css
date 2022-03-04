@@ -2,8 +2,8 @@
   text-decoration: none;
 }
 
-.my-list > li:nth-child(3) {
-  background-color: grey;
+.nested > li > ul > li:last-child a {
+  text-decoration: none;
 }
 
 body h2:nth-of-type(odd) {
@@ -18,4 +18,30 @@ ul li ul li:nth-child(3) {
 p:nth-of-type(odd) {
   background-color: brown;
   padding: 15px;
+}
+
+.last-list li:nth-child(2n + 1) {
+  background-color: yellow;
+}
+
+.my-list > li:nth-child(3) {
+  background-color: gray;
+}
+
+body h3:nth-of-type(4) {
+  color: green;
+}
+
+ul.u-line li:first-child {
+  text-decoration: underline;
+}
+ul li:last-child {
+  text-decoration: underline;
+}
+.last-list li:nth-child(2) a {
+  text-decoration: line-through;
+}
+body > ul > li:nth-of-type(3n) {
+  border: 1px solid black;
+  padding: 8px;
 }
